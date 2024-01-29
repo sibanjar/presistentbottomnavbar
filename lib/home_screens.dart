@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   );
                 },
                 child: const Text(
-                  "Go to Second Screen ->",
+                  "Go to home Screen 2->",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
@@ -81,7 +81,7 @@ class HomeScreen2 extends StatelessWidget {
                   screen: const HomeScreen3());
             },
             child: const Text(
-              "Go to Third Screen",
+              "Go to home Screen 3",
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -90,7 +90,7 @@ class HomeScreen2 extends StatelessWidget {
               Navigator.pop(context);
             },
             child: const Text(
-              "Go Back to First Screen",
+              "Go Back to Home Screen",
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -112,7 +112,7 @@ class HomeScreen3 extends StatelessWidget {
           Navigator.pop(context);
         },
         child: const Text(
-          "Go Back to Second Screen",
+          "Go Back to HomeScreen 2",
           style: TextStyle(color: Colors.white),
         ),
       ),

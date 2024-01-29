@@ -42,7 +42,7 @@ class AddScreen extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const Center(child: Text('Press It',style: TextStyle(color: Colors.white),)),
+            const Center(child: Text('Press It to go add screen 1',style: TextStyle(color: Colors.white),)),
           ],
         ),
       ),
@@ -61,7 +61,7 @@ class AddScreen1 extends StatelessWidget {
           Navigator.pop(context);
         },
         child: const Text(
-          "Go Back to Second Screen",
+          "Go Back to add screen",
           style: TextStyle(color: Colors.white),
         ),
       ),
